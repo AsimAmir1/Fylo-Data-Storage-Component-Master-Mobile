@@ -1,0 +1,155 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+@font-face{
+font-family:'raleway';
+src:url(Raleway-Bold.ttf);
+font-synthesis:normal;
+font-weight:700;
+}
+
+@font-face{
+font-family:'raleway';
+src:url(Raleway-Regular.ttf);
+font-synthesis:normal;
+font-weight:400;
+}
+
+body{
+background-image:url(bg-mobile.png);
+background-size:cover;
+background-position:center;
+font-family:raleway;
+}
+
+.container{
+margin:0 20px;
+background:#1D2B66;
+margin-top:80px;
+margin-bottom:-65px;
+padding:40px;
+border-radius:12px 100px 12px 12px;
+}
+
+.content{
+position:relative;
+}
+
+.content .logo{
+margin-bottom:30px;
+}
+
+.content div img{
+background:#000;
+border-radius:8px;
+padding:10px;
+margin-right:10px;
+}
+
+.imaging{
+display:flex;
+text-align:center;
+}
+
+.img-box{
+text-align:center;
+width:45px;
+height:45px;
+background:#000;
+border-radius:12px;
+margin-right:15px;
+display:flex;
+align-items:center;
+justify-content:center;
+padding-left:10px;
+}
+
+.co{
+border-radius:12px;
+position:relative;
+}
+
+.co p{
+font-weight:400;
+font-size:13px;
+margin-bottom:20px;
+color:#727DAC;
+}
+
+.co p span{
+color:#eee;
+font-weight:700;
+font-size:13px;
+}
+
+.co .down{
+width:100%;
+padding:10px 0;
+height:15px;
+background:#0C122C;
+border-radius:50px;
+}
+
+.co .up{
+width:75%;
+height:15px;
+background:linear-gradient(to right, #FFA297, #FF4C96);
+border-radius:50px;
+position:absolute;
+top:37.5px;
+}
+
+.co .up .dot{
+width:9px;
+height:9px;
+background:#fff;
+border-radius:50px;
+margin-left:169px;
+margin-top:2.5px;
+}
+
+.gb{
+display:flex;
+align-items:center;
+justify-content:space-between;
+margin-top:10px;
+}
+
+.gb p{
+color:#DCDAFF;
+font-weight:700;
+}
+
+.gb-left-box{
+position:absolute;
+top:100px;
+left:35px;
+border-radius:12px;
+padding:35px 20px;
+width:165px;
+height:60px;
+background:#fff;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+}
+
+.gb-left-box .bold{
+color:#0D132D;
+font-size:40px;
+font-weight:700;
+padding-top:15px;
+}
+
+.gb-left-box .light{
+color:#838694;
+font-size:12px;
+margin-left:10px;
+text-align:ceter;
+font-weight:700;
+line-height:60px;
+}
